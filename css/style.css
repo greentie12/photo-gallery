@@ -343,6 +343,9 @@ template {
   display: none;
 }
 
+/* ======================================= */
+/*              Base Styles            */
+/* ======================================= */
 * {
   box-sizing: border-box;
 }
@@ -351,6 +354,10 @@ body {
   background-color: #fff;
   font-family: "Nunito Sans", Verdana, sans-serif;
   color: #2f2f2f;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ===================== */

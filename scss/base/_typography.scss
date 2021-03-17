@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: color(primary, base);
   font-family: $font-stack-family;
-  color: $color-text;
+  color: color(text-c, base);
 }

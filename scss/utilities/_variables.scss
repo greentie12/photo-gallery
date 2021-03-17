@@ -10,17 +10,14 @@ $color-shade: #b4b4b4;
 // Text color
 $color-text: #2f2f2f;
 
-//  Fonts
-$font-stack-family: "Lato", sans-serif;
-
-//Layout
-$min-width: 300px;
-$max-width: 900px;
+// Color shade pct%
+$color-adjust-amount: 5%;
 
 //Color Map
 $colors: (
   primary: (
     base: $color-primary,
+    dark: darken($color-primary, $color-adjust-amount),
   ),
   secondary: (
     base: $color-secondary,
@@ -32,3 +29,10 @@ $colors: (
     base: $color-text,
   ),
 );
+
+//  Fonts
+$font-stack-family: "Nunito Sans", Verdana, sans-serif;
+
+//Layout
+$min-width: 300px;
+$max-width: 900px;

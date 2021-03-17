@@ -9,11 +9,11 @@
   color: $color-text;
   font-size: 1.3rem;
   padding: 0.8rem 3rem;
-  border: 1px solid $color-shade;
+  border: 1px solid color(shade, base);
   border-radius: 3px;
 
   &:focus {
     outline: none;
-    border: 2px solid $color-secondary;
+    border: 2px solid color(secondary, base);
   }
 }

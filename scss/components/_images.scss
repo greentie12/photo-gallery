@@ -1,0 +1,23 @@
+/* ======================================= */
+/*             Images                */
+/* ======================================= */
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 1.3rem;
+  justify-content: center;
+
+  .image {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

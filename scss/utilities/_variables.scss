@@ -1,0 +1,34 @@
+// ========================
+//  Variables
+// ========================
+
+// Colors
+$color-primary: #fff;
+$color-secondary: #4a8686;
+$color-shade: #b4b4b4;
+
+// Text color
+$color-text: #2f2f2f;
+
+//  Fonts
+$font-stack-family: "Lato", sans-serif;
+
+//Layout
+$min-width: 300px;
+$max-width: 900px;
+
+//Color Map
+$colors: (
+  primary: (
+    base: $color-primary,
+  ),
+  secondary: (
+    base: $color-secondary,
+  ),
+  shade: (
+    base: $color-shade,
+  ),
+  text-c: (
+    base: $color-text,
+  ),
+);

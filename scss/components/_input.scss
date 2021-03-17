@@ -1,0 +1,19 @@
+/* ======================== */
+/*          Inputs         */
+/* ======================= */
+
+#search {
+  background: url("../../img/search-icon.png") no-repeat 0.5rem / 25px;
+  width: 50%;
+  min-width: 200px;
+  color: $color-text;
+  font-size: 1.3rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid $color-shade;
+  border-radius: 3px;
+
+  &:focus {
+    outline: none;
+    border: 2px solid $color-secondary;
+  }
+}

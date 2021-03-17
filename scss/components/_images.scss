@@ -4,7 +4,7 @@
 
 .image-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-columns: repeat(auto-fit, $element-min-width);
   gap: 1.3rem;
   justify-content: center;
 

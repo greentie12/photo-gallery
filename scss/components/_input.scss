@@ -5,7 +5,7 @@
 #search {
   background: url("../../img/search-icon.png") no-repeat 0.5rem / 25px;
   width: 50%;
-  min-width: 200px;
+  min-width: $element-min-width;
   color: $color-text;
   font-size: 1.3rem;
   padding: 0.8rem 3rem;
